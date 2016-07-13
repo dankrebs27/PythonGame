@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="8">
+ <properties>
+  <property name="Height" value="960"/>
+  <property name="Width" value="960"/>
+ </properties>
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32" tilecount="72">
+  <image source="grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytlktvgzAQhO2kDVx4pHApSY9tuOf//7cayasMo1kwVQ8j81p/9uzaOIYQTkkxt6hIuidVSXVu7fomvm2yIvVnfURiLNdtVgN9LO2cNOS4Aa4fgtFAH0v7nfST9JHjkKtijNtDjGlMek865+9x3KccYyzzZ3C4LbTIvVOcMe29cY3l8SxWcZXPs4g1f5ug56Z4y1gnkddGcNHjkbh9zp03N8XjeoqC21OfNfR13fHSWBPlooQ7Q5/M3eNhjZdyMV8Dcbnluan1q7j4DNdZRarFM3v+IBZz+L7fYPEeMYb13FVtt4XcrbrnvOFYbJ6ma3it266A69XFJ+lC32Ju2fMreNg581d1yPse7ue8hnEcKu82ho76nEDGM19wjMw1T6bsBeelxAPk8L3HvYX1/voFfM6dGoOXd+SeCri2D1zC2pOLw9/j4v6MtcRc+/4N/D/ne87FHpc9rh0u7nnqn28t8hWH634O67na/oT7Hf9H+cy06An8v8zXzlTsM/9HWU9gH+VWgntEWxz0jmtKcZuDUlw+Q7LHHtfLqadS7lZ+t3LqaYurzjij4Cqvj+YXY1U9lfpckt9I3Ja4pfktFdcjr3nk/vc64vMjjmvhqjOHcTkvR/QL6lIoQQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="tree" type="blocker" x="277" y="386" width="75" height="43"/>
+  <object id="4" name="fighter" type="enemy" x="449" y="449" width="32" height="32"/>
+ </objectgroup>
+</map>
